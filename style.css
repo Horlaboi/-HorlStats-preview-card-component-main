@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(19, 2, 36);
+}
+
+
+.total-div{
+    display: flex;
+    height:100vh;
+
+}
+
+.main{
+    color: #fff;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: auto;
+    width: 70%;
+    max-width: 1000px;
+    background: rgb(30, 65, 141);
+    /* margin: 40px auto; */
+    /* align-items: stretch; */
+    /* justify-content: center; */
+    
+}
+
+.span{
+    color: orchid;
+}
+
+.main-two{
+    flex: 1.2;
+    height: auto;
+    width: 100%;
+    /* background: linear-gradient(blue,yellow,green),url(images/image-header-desktop.jpg); */
+    background-image: linear-gradient(hsla(277, 86%, 17%, 0.753),hsla(277, 86%, 17%, 0.753), hsla(277, 86%, 17%, 0.753),hsla(277, 86%, 17%, 0.753),hsla(277, 86%, 17%, 0.753),hsla(277, 86%, 17%, 0.753)),url(images/image-header-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.main-one{
+    flex: 1;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    padding-left: 2rem;
+    padding-right: 2em;
+    text-align: left;
+    background-color: rgba(6, 6, 34, 0.884);
+    
+}
+
+.margin{
+    margin-top: 2rem;
+}
+
+.main-one-one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
